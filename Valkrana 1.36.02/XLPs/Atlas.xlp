@@ -66,10 +66,6 @@
 			<m_ObjectName text="ICON_UNIT_SAILOR_VALKRANA_UU_PORTRAIT_95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
-			<m_ObjectName text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
-		</Element>
-		<Element>
 			<m_EntryID text="SpellbookButton_72"/>
 			<m_ObjectName text="SpellbookButton_72"/>
 		</Element>
@@ -124,6 +120,10 @@
 		<Element>
 			<m_EntryID text="ICON_LEADER_SAILOR_VALKRANA_80"/>
 			<m_ObjectName text="ICON_LEADER_SAILOR_VALKRANA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
+			<m_ObjectName text="Moment_UniqueUnit_Sailor_Valkrana_UU"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

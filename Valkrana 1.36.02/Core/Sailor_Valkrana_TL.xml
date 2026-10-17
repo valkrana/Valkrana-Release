@@ -1559,6 +1559,24 @@
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="ja_JP">
 			<Text>スプラシエンスタ</Text>
 		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="ja_JP">
+			<Text>クワダイ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_NIPPER_BAY" Language="ja_JP">
+			<Text>ニッパー湾</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_GUGLIA" Language="ja_JP">
+			<Text>グリア</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_THE_BATTEN" Language="ja_JP">
+			<Text>バテン</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_ATENAI" Language="ja_JP">
+			<Text>アテナイ</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_LACEDAE" Language="ja_JP">
+			<Text>ラケダイ</Text>
+		</Row>
 
 		<!--Civilopedia-->
 		<!--Extended Pedia entries can be found at the bottom of the document.-->
@@ -2605,6 +2623,24 @@
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="it_IT">
 			<Text>Sssrashiensta</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="it_IT">
+			<Text>Khwaday</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_NIPPER_BAY" Language="it_IT">
+			<Text>Baia di Nipper</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_GUGLIA" Language="it_IT">
+			<Text>Guglia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_THE_BATTEN" Language="it_IT">
+			<Text>Il Listello</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_ATENAI" Language="it_IT">
+			<Text>Atenai</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_SAILOR_LACEDAE" Language="it_IT">
+			<Text>Lacedae</Text>
 		</Row>
 
 		<!--Civilopedia-->
