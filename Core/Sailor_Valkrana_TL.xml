@@ -31,31 +31,13 @@
 		<!--DOM-->
 		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="zh_Hant_HK">
 			<Text>
-				瓦爾克拉娜·米拉奎納爾，儘管你或許有些笨拙，但你步出陰影的時刻已近在眼前。你的摯愛期盼親眼見證你的祖國在你手中取得勝利，因此這份領導重任就該由你來肩負。憑藉你敏銳的智慧、深厚的奧術造詣、勤勉的情資蒐集，以及那支無數不知疲倦的骷髏大軍……嗯，正如你所言：「為伊莉雅娜所做之事，皆超越善惡之界。
+				Valkrana Miraquinal，儘管你可能很尷尬，但你走出陰影的時候已經臨近了。 你的寶貝希望看到你的祖國在你的手下勝利，所以領導的衣缽是你的。 憑藉你相當的智慧、神秘的曲目和一群不知疲倦的骷髏。 . . 嗯，就像你說的，“為我的寶貝所做的，超越了善惡。”
 			</Text>
 		</Row>
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="zh_Hant_HK">
 			<Text>斯拉希恩斯塔 </Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="zh_Hant_HK">
-			<Text>赫瓦代</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_NIPPER_BAY" Language="zh_Hant_HK">
-			<Text>尼珀灣</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_GUGLIA" Language="zh_Hant_HK">
-			<Text>古格利亞</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_THE_BATTEN" Language="zh_Hant_HK">
-			<Text>巴滕</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_ATENAI" Language="zh_Hant_HK">
-			<Text>阿特奈</Text>
-		</Row>
-		<Row Tag="LOC_CITY_NAME_SAILOR_LACEDAE" Language="zh_Hant_HK">
-			<Text>拉塞代</Text>
 		</Row>
 
 		<!--Civilopedia-->
@@ -395,26 +377,26 @@
 		<!-- ====================================================== -->
 		<!-- ====================================================== -->
 		<!-- ====================================================== -->
-		<!-- CHINESE (SIMPLIFIED) by PhantomJ_M-->
+		<!-- CHINESE (SIMPLIFIED) by PhantomJ_M -->
 		<!-- ====================================================== -->
 		<!-- ====================================================== -->
 		<!-- ====================================================== -->
         <!-- 词典和笔记 -->
         <!-- 角色应该是一个软弱萝莉病娇，但是后面台词逐渐变得硬朗起来了 -->
         <!-- "LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" -->     <!-- 这个我也没看懂 -->
-        <!-- Valkrana Miraquinal        瓦克拉娜·米拉奎纳尔 -->      <!-- 真不会俄语-->
+        <!-- Valkrana Miraquinal        瓦克拉娜·米拉奎纳尔 -->      <!-- 真不会俄语 -->
         <!-- Ilyana Miraquinal          伊利亚娜·米拉奎纳尔 -->
-        <!-- Sssrashiensta              诗拉希恩斯塔-->
-        <!-- Awkward                    稀奇古怪-->                 <!-- 字面意思上就是丑，但其实还行-->
+        <!-- Sssrashiensta              诗拉希恩斯塔 -->
+        <!-- Awkward                    社恐 -->                 <!-- 直译是不善社交，但是我们需要一个属性词来代替它，先前用的是古怪。现在这个词不是很准确但是凑合用吧 -->
         <!-- Spellbook                  魔导书 -->
         <!-- Magic item                 魔道具 -->
-        <!-- My darling's me            亲爱的我-->
-        <!-- My darling                 我亲爱的-->
-        <!-- Scry                       洞察-->
-        <!-- Kinetic Barrier            能量屏障-->
-        <!-- Well of Souls              灵魂之井-->
-        <!-- Skeleport                  死灵召唤 -->                <!-- 虽然字面意思是亡灵传送但效果其实是召唤一群叛军骷髅，很菜。。-->
-        <!-- Infomonger                 窥视癖 -->
+        <!-- My darling's me            亲爱的我 -->
+        <!-- My darling                 我亲爱的 -->
+        <!-- Scry                       探知 -->  					<!-- 原翻译为洞察，不太像死灵法师 -->
+        <!-- Kinetic Barrier            动能屏障 -->  				<!-- 参考质量效应中的翻译，原翻译能量屏障少了韵味 -->
+        <!-- Well of Souls              灵魂之井 -->
+        <!-- Skeleport                  骷髅空投 -->                <!-- Skeleport 是个很有趣的造词，但可惜译者没能力信达雅地翻译成中文 -->
+        <!-- Infomonger                 情报贩子 -->					<!-- 先前翻译为窥视癖，意译过重了 -->
 		<Row Tag="LOC_LEADER_SAILOR_VALKRANA_NAME" Language="zh_Hans_CN">
 			<Text>瓦克拉娜</Text>
 			<!--Used on loading screen, pedia list, and civ pedia.-->
@@ -425,44 +407,48 @@
 			<Text>死灵秘术</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+2 [ICON_GreatScientist] 大科学家点数。你的在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
+			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+2 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="zh_Hans_CN">
-			<Text>获得一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+1 [ICON_GreatScientist] 大科学家点数。你的在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
+			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+1 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>
-				魔导书[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]洞察[ENDCOLOR] - 永久显示属于目标领袖的一座城市所在格位。每次使用都会优先揭露该领袖的未发现的城市格位，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个地块。[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]能量屏障[ENDCOLOR] - 使你的单位在防御时获得 +10 [ICON_Strength] 战斗力加成。效果持续5回合。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]灵魂之井[ENDCOLOR] - 治疗你的骷髅，治疗量为20再加上你所击杀的单位数的两倍。每次使用后重新计数[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]死灵召唤[ENDCOLOR] - 在目标领袖的城市附近生成3个敌对骷髅。如果还没有遇到任何领袖，则会以随机地块为目标。
+				魔导书[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]探知[ENDCOLOR] - 永久显示目标领袖一座城市所在的单元格。每次使用都会优先揭露该领袖未发现的城市单元格，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个地块。[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]动能屏障[ENDCOLOR] - 使你的单位在防御时 +10 [ICON_Strength] 战斗力。效果持续5回合。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]灵魂之井[ENDCOLOR] - 治疗你的骷髅，治疗量为20加上你所击杀的单位数的两倍。每次使用后重新计数。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]骷髅空投[ENDCOLOR] - 在目标领袖的城市附近生成3个敌对骷髅。如果还没有遇到任何领袖，则会以随机单元格为目标。
 			</Text>
 		</Row>
-		<!--DOM-->
+		<!-- DOM -->
+		<!-- 我以前居然没发现是改自尼采的善恶的彼岸 -->
 		<Row Tag="LOC_LOADING_INFO_LEADER_SAILOR_VALKRANA" Language="zh_Hans_CN">
 			<Text>
-				瓦克拉娜·米拉奎纳尔，尽管你给人感觉稀奇古怪，但你走出阴影的时刻来临了。你亲爱的希望看到你的祖国在你手下繁荣昌盛，所以把领袖的位置交给了你。凭借着你相当的智慧、神秘学法术和一群永不疲倦的骷髅。。。嗯，就像你说的：“为我亲爱的所做的，超越了善与恶。”
+				纵使你生性孤僻笨拙，瓦克拉娜·米拉奎纳尔，走出阴影的时刻也已然到来。你所挚爱的那位希望看到祖国在你手下繁荣昌盛，便把领袖的位置交给了你。凭借你敏锐的才智、深厚的奥术造诣、孜孜不倦的情报搜集，以及一支不知疲倦的骷髅大军……嗯，诚如你所言：“出于伊利亚娜所做的事情，总是发生在善恶的彼岸。”
 			</Text>
 		</Row>
 
 		<!--Capital-->
+		<!-- SSS在魔兽世界中翻译成西，在DND翻译成沙。就个人看来，在独立作品中翻译成诗带点古典文学色彩没什么不好。Ssstzrazolik也将译为诗特扎佐利克 -->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="zh_Hans_CN">
 			<Text>诗拉希恩斯塔</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="zh_Hans_CN">
-			<Text>Khwaday</Text>
+			<Text>库瓦代</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_NIPPER_BAY" Language="zh_Hans_CN">
-			<Text>Nipper Bay</Text>
+			<Text>尼珀湾</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_GUGLIA" Language="zh_Hans_CN">
-			<Text>Guglia</Text>
+			<Text>古利亚</Text>
 		</Row>
+		<!-- 瓦克拉娜在初次见面的台词里会说：“I am battening the hatches to watch a necromancy storm from my nearest city.” 这里暂时采取音译 -->
 		<Row Tag="LOC_CITY_NAME_SAILOR_THE_BATTEN" Language="zh_Hans_CN">
-			<Text>The Batten</Text>
+			<Text>巴滕</Text>
 		</Row>
+		<!-- 雅典和斯巴达的古希腊语 -->
 		<Row Tag="LOC_CITY_NAME_SAILOR_ATENAI" Language="zh_Hans_CN">
-			<Text>Atenai</Text>
+			<Text>阿特奈</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_LACEDAE" Language="zh_Hans_CN">
-			<Text>Lacedae</Text>
+			<Text>拉栖代</Text>
 		</Row>
 
 		<!--Civilopedia-->
@@ -477,16 +463,16 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_QUOTE" Language="zh_Hans_CN">
 			<Text>
-				骷髅们很可爱——它们长得就很可爱。
+				骷髅们很可爱——它们本来长得就很可爱。
 			</Text>
 		</Row>
 
 		<!--Spellbook Button-->
 		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NIL" Language="zh_Hans_CN">
-			<Text>你没有可用的法术。获得 [ICON_GreatWork_Relic] 遗物来为你的魔导书充能。</Text>
+			<Text>你没有可用的法术。获取 [ICON_GreatWork_Relic] 遗物来为你的魔导书充能。</Text>
 		</Row>
 		<Row Tag="LOC_SAILOR_VALKRANA_BUTTON_NOT_NIL" Language="zh_Hans_CN">
-			<Text>你的魔导书充盈着魔力。你现在可以施展你的法术了。获得更多 [ICON_GreatWork_Relic] 遗物以进一步增强您的魔导书。</Text>
+			<Text>你的魔导书充盈着魔力，现在可以施展你的法术了。获得更多 [ICON_GreatWork_Relic] 遗物以进一步增强你的魔导书。</Text>
 		</Row>
 
 		<!--Spellbook-->
@@ -497,38 +483,38 @@
 			<Text>选择要施放的法术，或合上这本书以备后用。</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_1_NAME" Language="zh_Hans_CN">
-			<Text>洞察</Text>
+			<Text>探知</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>永久显示属于目标领袖的一座城市所在格位。每次使用都会优先揭露该领袖的未发现的城市格位，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个地块。</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_2_NAME" Language="zh_Hans_CN">
-			<Text>能量屏障</Text>
+			<Text>动能屏障</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>使你的单位在防御时获得 +10 [ICON_Strength] 战斗力加成。效果持续5回合。</Text>
+			<Text>使你的单位在防御时 +10 [ICON_Strength] 战斗力。效果持续5回合。</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_3_NAME" Language="zh_Hans_CN">
 			<Text>灵魂之井</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>治疗你的骷髅，治疗量为20再加上你所击杀的单位数的两倍。每次使用后重新计数。当前治疗：</Text>
+			<Text>治疗你的骷髅，治疗量为20加上你所击杀的单位数的两倍。每次使用后重新计数。当前治疗：</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_4_NAME" Language="zh_Hans_CN">
-			<Text>死灵召唤</Text>
+			<Text>骷髅空投</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在目标领袖的城市附近生成3个敌对骷髅。 如果还没有遇到任何领袖，则会以随机地块为目标。</Text>
+			<Text>在目标领袖的城市附近生成3个敌对骷髅。如果还没有遇到任何领袖，则会以随机单元格为目标。</Text>
 		</Row>
 		<!--Spellbook Ability-->
 		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_NAME" Language="zh_Hans_CN">
-			<Text>能量屏障</Text>
+			<Text>动能屏障</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_SAILOR_VALKRANA_SPELL2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>在防御时+10 [ICON_Strength] 战斗力。</Text>
 		</Row>
 		<Row Tag="LOC_SAILOR_VALKRANA_BARRIER_PREVIEW_TEXT" Language="zh_Hans_CN">
-			<Text>+10 能量屏障</Text>
+			<Text>+10 （动能屏障）</Text>
 		</Row>
 		<!--Targets-->
 		<Row Tag="LOC_SAILOR_VALKRANA_TARGETS_SUBHEADER" Language="zh_Hans_CN">
@@ -540,13 +526,13 @@
 			<Text>骷髅</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代勇士的独特近战单位。 首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学和研究实验室时都会获得 +20 [ICON_Strength] 战斗力。可以修复改良设施和删除地貌。</Text>
+			<Text>取代勇士的特色近战单位。首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学、研究实验室时获得 +20 [ICON_Strength] 战斗力。有修复改良设施和移除地貌的能力。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_NAME" Language="zh_Hans_CN">
 			<Text>骷髅</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_SAILOR_VALKRANA_UU_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>取代勇士的独特近战单位。 首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学和研究实验室时都会获得 +20 [ICON_Strength] 战斗力。可以修复改良设施和删除地貌。</Text>
+			<Text>取代勇士的特色近战单位。首次建造图书馆时获得 +10 [ICON_Strength] 战斗力，首次建造大学、研究实验室时获得 +20 [ICON_Strength] 战斗力。有修复改良设施和移除地貌的能力。</Text>
 		</Row>
 
 		<!--UnitName-->
@@ -556,26 +542,26 @@
 
 		<!--Reanimation Floater-->
 		<Row Tag="LOC_SAILOR_VALKRANA_REANIMATED" Language="zh_Hans_CN">
-			<Text>[COLOR_FLOAT_CULTURE]骷髅复活了！[ENDCOLOR]</Text>
+			<Text>[COLOR:252,73,178,255]骷髅复活了！[ENDCOLOR]</Text>
 		</Row>
 
 		<!--Religion-->
 		<Row Tag="LOC_RELIGION_SAILOR_ILYANA" Language="zh_Hans_CN">
-			<Text>伊利亚娜崇拜</Text>
+			<Text>伊利亚娜教</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_RELIGIONS_PAGE_RELIGION_SAILOR_ILYANA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>伟大、强大、无与伦比的女巫英雄伊利亚娜·米拉奎纳尔的追随者、左右手、头号粉丝和仰慕者。</Text>
+			<Text>伟大、强大、无与伦比的魔女英雄——伊利亚娜·米拉奎纳尔的追随者、仆从、粉丝与仰慕者们。</Text>
 		</Row>
 
 		<!--Diplomacy-->
 		<!--FIRST MEET-->
 		<!--First AI line-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你。。。你好。。我是瓦克拉娜·米拉奎纳尔，伟大、强大、无与伦比的英雄伊利亚娜·米拉奎纳尔的左右手和最大粉丝。这就是我的介绍。</Text>
+			<Text>你……你好。我是瓦克拉娜·米拉奎纳尔，伟大、强大、无与伦比的英雄伊利亚娜·米拉奎纳尔的左右手兼头号粉丝。自我介绍完毕。</Text>
 		</Row>
 		<!--AI invitation to visit nearby City-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>我打算和人一起欣赏近些天可能会发生的死灵风暴。。嗯。。。你也可以来看。。但不是和亲爱的我一起哦。。</Text>
+			<Text>我正准备在最近的城里紧闭舱门，好好观赏一场死灵风暴。你也可以去……但休想跟属于亲爱的我待在一块。</Text>
 		</Row>
 		<!--AI accepts Human invitation-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
@@ -583,68 +569,68 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>诗拉希恩斯塔到处都是类昆虫、不死生物、地精和食人魔。只有人类希望它死的东西，它就可能就在这里。。。啊对了，还有帕菲。。</Text>
+			<Text>诗拉希恩斯塔到处都是类昆虫、不死生物、哥布林和食人魔。只要是人类希望它死的东西，大抵都能在那儿找到。啊对了，还有芭菲。</Text>
 		</Row>
 
 		<!--GREETINGS-->
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你好啊。。你好。</Text>
+			<Text>嗨。……嗨。嗨。</Text>
 		</Row>
 
 		<!--DELEGATION-->
 		<!--AI Accepts-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好吧。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--AI Rejects-->
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你这些下流的下属与我亲爱的没有任何关系。</Text>
+			<Text>你那些贼眉鼠眼的下属，休想跟我亲爱的扯上任何关系。</Text>
 		</Row>
 		<!--AI Requests -->
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>想想看，一队可爱的骷髅发出嘎吱嘎吱的声音向你走来。其中一个捧着海藻荔枝饼，还有个带着件一件超稀有的魔道具。哇啊。好像有点太欺负你了。。</Text>
+			<Text>想象一下：一支骨架咔嗒作响的可爱骷髅队伍朝你走来，一具捧着一篮海藻荔枝曲奇，另一具带着一件稀有魔道具。哇哦，你走大运了。</Text>
 		</Row>
 		<!--Human Accepts-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好吧。</Text>
+			<Text>行。</Text>
 		</Row>
 
 		<!--EMBASSY-->
 		<!--AI Accepts-->
 		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好吧。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--AI Rejects-->
 		<Row Tag="LOC_DIPLO_REJECT_EMBASSY_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>哦？我的稀奇古怪给了你一种你很受欢迎的感觉吗？抱歉，你理解错了。</Text>
+			<Text>哦？我不善社交的样子给了你一种你很受欢迎的感觉吗？抱歉，纯属错觉。</Text>
 		</Row>
 		<!--AI Requests -->
 		<Row Tag="LOC_DIPLO_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>我会派一队骷髅在你首都办事，办正经的事。</Text>
+			<Text>我会派一队骷髅在你首都办事，是办正经的事。</Text>
 		</Row>
 		<!--Human Accepts-->
 		<Row Tag="LOC_DIPLO_ACCEPT_EMBASSY_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好吧。</Text>
+			<Text>行。</Text>
 		</Row>
 
 		<!--OPEN BORDERS-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好吧。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--AI rejects from human-->
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>爬回你的坟墓吧。再见。</Text>
+			<Text>爬回你的坟墓去吧。再见。</Text>
 		</Row>
 		<!--AI requests from human-->
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>我的骷髅想要穿过你的领地。</Text>
+			<Text>我的骷髅军队要在你的领地借道。</Text>
 		</Row>
 
 		<!--DECLARE FRIENDSHIP-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>什么？为什么？。。。好吧。我确实在《凡人：他们是什么以及他们干嘛还要活着？》中读到过。你需要经常保持拥有朋友的幻想。</Text>
+			<Text>什么？为什么？……好吧。我确实在《凡人：他们是什么东西以及他们干嘛还要活着？》中读到过，你们往往需要维持“自己有朋友”的虚妄幻想。</Text>
 		</Row>
 		<!--AI Rejects from human -->
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
@@ -652,7 +638,7 @@
 		</Row>
 		<!--AI Requests friendship from human-->
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>我们不是朋友。但我们的敌人不需要知道这一点，我也会让我的骷髅们明白。你怎么样？</Text>
+			<Text>我们不是朋友。但我们的敌人没必要知道这点。我可以现在就去对外虚假宣传、大肆造谣我们是。</Text>
 		</Row>
 		<!--Human accepts AI requests, AI responds-->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
@@ -660,23 +646,23 @@
 		</Row>
 		<!--Human rejects AI requests, AI responds-->
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好。你也是。再见。</Text>
+			<Text>行。你也是。再见。</Text>
 		</Row>
 
 		<!--ALLIANCE-->
 		<!--AI Requests an alliance from human-->
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>一起密谋将符合我们的最大利益。嗯，彼此彼此的。</Text>
+			<Text>联手密谋最符合我们双方的利益。呃，我是说……咱们俩彼此勾结。</Text>
 		</Row>
 		<!--AI warns player for border troops-->
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你在这干什么？快离开！否则，你会发现你变成了我的又一具可爱的骷髅。。</Text>
+			<Text>你在这干什么？快离开！不然，我手里又要平添几具可爱的新骷髅了。</Text>
 		</Row>
 
 		<!--TRADE-->
 		<!--AI Accepts Deal-->
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--AI Rejects Deal-->
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
@@ -686,64 +672,64 @@
 		<!--DENOUNCE-->
 		<!--From Human-->
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--From AI-->
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你个蠢蛋，你会死的，还会留下一具愚蠢的尸体。（谴责你。）</Text>
+			<Text>你个蠢蛋，你会死的，然后留下一具愚蠢的尸体。（谴责你。）</Text>
 		</Row>
 
 		<!--DECLARE WAR-->
 		<!--Human Declares War-->
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>宣战？对象是死灵法师？你想清楚了吗，你个木瓜脑袋？</Text>
+			<Text>向死灵法师宣战？你想清楚了吗，虫豸？</Text>
 		</Row>
 		<!--AI Declares War-->
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你竟敢于介足我亲爱的和她的梦想之间？你将见证我可怕的奉献精神。</Text>
+			<Text>凡敢阻隔在伊利亚娜与她梦想之间的人……你将亲眼见证我那令人生畏的狂热执念。</Text>
 		</Row>
 
 		<!--MAKE PEACE-->
 		<!--AI accepts from human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>好。</Text>
+			<Text>行。</Text>
 		</Row>
 		<!--AI refuses human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>和平？但我既没有用尽法术，也还有用不尽骷髅大军。不出来欣赏下吗？</Text>
+			<Text>求和？但我既没有用尽法术，也还有用不尽骷髅大军。过来领死吧，虫豸。</Text>
 		</Row>
 		<!--AI requests from human-->
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>亡灵可以永远存在，但我们之间的战争没必要。</Text>
+			<Text>亡灵可以永恒不灭，但我们之间的战争大可不必。</Text>
 		</Row>
 
 		<!--DEFEAT-->
 		<!--AI is Defeated-->
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>我辜负了我亲爱的。我一文不值，令人厌恶。。。但我亲爱的，她还是接受了亲爱的我。。。然而我辜负了她。</Text>
+			<Text>我辜负了伊利亚娜。我……一文不值，令人厌恶……但我亲爱的，她还是接受了亲爱的我的这般模样……终究，我还是辜负了她……</Text>
 		</Row>
 		<!--Human is Defeated (will see this in hotseat)-->
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>你死了，留下了一具愚蠢的尸体。</Text>
+			<Text>你死了，只留下了一具愚蠢的尸体。</Text>
 		</Row>
 
 
 		<!--LEADER AGENDA-->
 		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_NAME" Language="zh_Hans_CN">
-			<Text>古怪的窥视癖</Text>
+			<Text>社恐情报贩子</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_SAILOR_VALKRANA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>瓦克拉娜很古怪，并且对与其他文明的外交关系有永久性的惩罚。其他文明发现的每个遗物都会略微但永久地改善她对该文明的关系，最多五次。讨厌监视她的文明。瓦克拉娜的主要着力点是科技和间谍活动。</Text>
+			<Text>瓦克拉娜生性孤僻，与其他文明的外交关系有永久性的惩罚。其他文明每发现一件遗物，都会略微且永久地提升她对该文明的好感（至多叠加5次）。极度厌恶对她开展间谍活动的文明。瓦克拉娜的主要着力点是科技与间谍活动。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_AWKWARD" Language="zh_Hans_CN">
-			<Text>你给人感觉很古怪</Text>
+			<Text>为人孤僻笨拙（社恐惩罚）</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_SPY" Language="zh_Hans_CN">
-			<Text>（你派出间谍监视了瓦克拉娜。）</Text>
+			<Text>（你派出了间谍监视瓦克拉娜。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MODIFIER_SAILOR_VALKRANA_SPY" Language="zh_Hans_CN">
-			<Text>因为你派出间谍监视她</Text>
+			<Text>对你派出间谍感到厌恶。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_RELIC" Language="zh_Hans_CN">
@@ -759,100 +745,101 @@
 		<!--AI Kudos-->
 		<!--Default-->
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>昨天，我从封面上看到一具骷髅打开了一瓶“22 年病态和内爆名声”。 神秘学史上的奇迹！（你找到了一个遗物。）</Text>
+			<Text>昨天，我躲在掩体后面，眼睁睁看着一具骷髅拔开了一瓶22年的“臭名昭著·开盖即爆药水”。砰！不可思议的奥术奇迹！（你找到了一个遗物。）</Text>
 		</Row>
 		<!--These will be semi-randomized and (hopefully) injected to replace the default.-->
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_1" Language="zh_Hans_CN">
-			<Text>昨天，我从封面上看到一具骷髅打开了一瓶“22 年病态和内爆名声”。 神秘学史上的奇迹！（你找到了一个遗物。）</Text>
+			<Text>昨天，我躲在掩体后面，眼睁睁看着一具骷髅拔开了一瓶22年的“臭名昭著·开盖即爆药水”。砰！不可思议的奥术奇迹！（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_2" Language="zh_Hans_CN">
-			<Text>奥术魔典拥有如此不可思议的知识。比如《极暗之书》第184页，里面说……（你找到了一个遗物。）</Text>
+			<Text>奥术魔典里蕴藏着难以置信的浩瀚知识。比如《极暗之书》第184页里就写道……（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_3" Language="zh_Hans_CN">
-			<Text>另一个要编目的魔道具。我等不及想要想告诉我亲爱的了。呵呵呵。。。（你找到了一个遗物。）</Text>
+			<Text>又多了一件要编目的魔道具。我已经等不及要告诉我亲爱的了。嘿嘿嘿……（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_4" Language="zh_Hans_CN">
-			<Text>有时，嗯，有时，我亲爱的允许亲爱的我骑在她的飞天扫帚上，她的头发挂到我的脸上和嘴里，我能闻到她美味的椎骨。而这一次，这一次……（你找到了一个遗物。）</Text>
+			<Text>每件魔道具都拥有独一无二的特性。发现它们时我都会满怀欣喜，将其激活时也是。（你发现了一件遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_5" Language="zh_Hans_CN">
-			<Text>魔杖可以储存各种魔法。使用魔杖节省资源。使用魔杖体验魔法。胡言乱语中……（ 你找到了一个遗物。）</Text>
+			<Text>魔杖可以储存各种魔法。使用魔杖节省资源。使用魔杖体验魔法。总之使用魔杖就对了（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_6" Language="zh_Hans_CN">
-			<Text>消耗魔道具的最后一次充能是苦乐参半的。对双方来说，你都是最后一个能够用上他的人。 （你找到了一个遗物。）</Text>
+			<Text>消耗魔道具的最后一次充能是悲喜参半的。无论从哪个角度看，你都是有史以来最后一个使用过它的人。（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_7" Language="zh_Hans_CN">
-			<Text>你最喜欢的魔道具是什么？ 你不能让亲爱的我选择。 （你找到了一个遗物。）</Text>
+			<Text>你最喜欢的魔道具是什么？但休想反过来问亲爱的我。（你找到了一个遗物。）</Text>
 		</Row>
+		<!-- 应该是那个Deck of Many Things -->
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_8" Language="zh_Hans_CN">
-			<Text>我从没想过骷髅们会变得有知觉。但我不介意。（你找到了一个遗物。）</Text>
+			<Text>我从没想过“万骨牌”居然会产生自我意识。不过我倒是不介意。（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_9" Language="zh_Hans_CN">
-			<Text>不要忽视看似平凡的魔道具。小小的，日常的事情改善了我亲爱的生活。魔法也是如此。（你找到了一个遗物。）</Text>
+			<Text>不要小看那些看似平凡的魔道具。平日里微小的点滴便能让我亲爱的过得更舒心，魔法也是如此。（你找到了一个遗物。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_SAILOR_VALKRANA_0" Language="zh_Hans_CN">
-			<Text>天哪，那是黑社会居民的箔限量版法杖吗？（你找到了一个遗物。）</Text>
+			<Text>活见骨了！那难道是一根全息烫金限定版的“冥界住民法杖”？！（你找到了一个遗物。）</Text>
 		</Row>
 
 		<!--AI Warnings-->
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_SAILOR_VALKRANA_ANY" Language="zh_Hans_CN">
-			<Text>继续这些可怜的间谍活动的话，后果自负。</Text>
+			<Text>继续你那些可怜的间谍活动的话，后果自负，虫豸。</Text>
 		</Row>
 
         <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>
-				译者注：太长我也没细看，大概是一个自创的角色，人设是个萝莉病娇，处于一个中世纪魔幻世界，喜欢一个叫伊利亚娜的大巫女，称她为我亲爱的，自称为（我）亲爱的我。擅长死灵法术，长得很古怪（应该是说长得丑，但从立绘上看其实还行）。这是角色介绍网站 https://valkrana.moe [NEWLINE][NEWLINE]INTRODUCTION[NEWLINE]The feats of the Great and Mighty Ilyana Miraquinal are mandatory curriculum at any bard academy. But Valkrana Miraquinal, her wife and right hand, manipulates the limelight to fall on only Ilyana. An interview with Valkrana would surely earn you the prestige of an entire paragraph in the Centennial Manual di Bards. At least! Such was your eagerness that you arrived at this boondocks tavern a full week in advance. 'If nothing else, these candy corn cookies are the best you've ever had,' you think as you bite into one. Naturally, the two show up when your mouth is full.
+				译者注：太长我也没细看，大概是一个自创的角色，人设是个萝莉病娇，处于一个中世纪魔幻世界，带有大量DND要素。喜欢一个叫伊利亚娜的大魔女，称她为我亲爱的，自称（我）为亲爱的我。擅长死灵法术，不善言辞，说话古怪。这是角色介绍网站 https://valkrana.moe [NEWLINE][NEWLINE]INTRODUCTION[NEWLINE]The feats of the Great and Mighty Ilyana Miraquinal are mandatory curriculum at any bard academy. But Valkrana Miraquinal, her wife and right hand, manipulates the limelight to fall on only Ilyana. An interview with Valkrana would surely earn you the prestige of an entire paragraph in the Centennial Manual di Bards. At least! Such was your eagerness that you arrived at this boondocks tavern a full week in advance. 'If nothing else, these candy corn cookies are the best you've ever had,' you think as you bite into one. Naturally, the two show up when your mouth is full.
 			</Text>
 		</Row>
 
 		<!--Random Agendas-->
 		<!--Gossip-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_GOSSIP_POSITIVE" Language="zh_Hans_CN">
-			<Text>Intel is the most valuable currency. Your contribution to my treasury has been noted. 'Kay.</Text>
+			<Text>情报是最珍贵的硬通货。你为我的金库所做的贡献已被记录。行了。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_GOSSIP_NEGATIVE" Language="zh_Hans_CN">
-			<Text>Hi. ...Hi. Your information network is not as secure as you believe.</Text>
+			<Text>嗨。……嗨。你的情报网络可没有你自以为的那么周全。</Text>
 		</Row>
 		<!--Destination Civ-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_TOURISM" Language="zh_Hans_CN">
-			<Text>The great, mighty, unrivaled Ilyana Miraquinal is the very image of heroism. Admirers the world over travel in the hopes of so much as a glimpse.</Text>
+			<Text>伟大、强大、无与伦比的伊利亚娜·米拉奎纳尔就是英雄的化身。全世界的仰慕者不远万里前来，只为能远远瞥见她一眼。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_TOURISM" Language="zh_Hans_CN">
-			<Text>It is my duty to promote the great, mighty, unrivaled Ilyana Miraquinal. You will not interfere. 'Kay.</Text>
+			<Text>弘扬伟大、强大、无与伦比的伊利亚娜·米拉奎纳尔是我的职责。你休想插手干涉。听到了吗。</Text>
 		</Row>
 		<!--Great Person Advocate-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LAG" Language="zh_Hans_CN">
-			<Text>It is only natural for the best and brightest to flock to someone as magnificent as my darling.</Text>
+			<Text>最拔尖、最闪耀的天才自然都会奔向像我亲爱的这般璀璨之人。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MODIFIER_GREAT_PERSON_ADVOCATE_LEAD" Language="zh_Hans_CN">
-			<Text>Under anyone besides my darling, great people will never realize their true potential. What a waste.</Text>
+			<Text>在除我亲爱的之外的庸主麾下，伟人们永远无法施展真正的潜力。真是暴殄天物。</Text>
 		</Row>
 		<!--Money Grubber-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
-			<Text>Hi. ...Hi. We have a great deal to accomplish. Therefore, we have a great deal of coin.</Text>
+			<Text>嗨。……嗨。我们有极其宏大的伟业要完成，相应地我们当然具有极其雄厚的金币。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_MONEY_GRUBBER" Language="zh_Hans_CN">
-			<Text>Coin is essential to any meaningful endeavor. Are none of your endeavors meaningful? Bye-bye. You, too.</Text>
+			<Text>金钱是一切宏图伟业的基石。难道你的事业就没一件有意义吗？再见。你也再见。</Text>
 		</Row>
 		<!--Nuke Lover-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_NUKE_LOVE" Language="zh_Hans_CN">
-			<Text>Even the most destructive spells should be cast at least once. You understand this.</Text>
+			<Text>纵使是最具毁灭性的大规模禁咒，也应当至少施放一次。显然你也懂这个道理。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_NUKE_LOVE" Language="zh_Hans_CN">
-			<Text>Even the most destructive spells should be cast at least once. You should understand this.</Text>
+			<Text>纵使是最具毁灭性的大规模禁咒，也应当至少施放一次。你应该明白这个道理。</Text>
 		</Row>
 		<!--Standing Army-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_AGENDA_HIGH_STANDING_ARMY" Language="zh_Hans_CN">
-			<Text>Hi. Jumping skeletons, moss-covered skeletons, skeletons from a geyser, skeletons with machine guns. The more skeletons the better. They are both cute and versatile.</Text>
+			<Text>嗨。跳跳骷髅、苔藓骷髅、间歇泉骷髅、端着机关枪的骷髅……骷髅自然是越多越好。它们既可爱又全能。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_AGENDA_LOW_STANDING_ARMY" Language="zh_Hans_CN">
-			<Text>Do not think you can leave all the fighting to my skeletons just because they do not tire. ...'Kay.</Text>
+			<Text>别以为骷髅不知疲倦，你就可以把所有的仗全扔给它们打。……听到了吗。</Text>
 		</Row>
 		<!--Secret Society-->
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_SAILOR_VALKRANA_REASON_STANDARD_DIPLOMATIC_SAME_SECRET_SOCIETY" Language="zh_Hans_CN">
-			<Text>Hi. ...Hi. (You belong to the same secret society.)</Text>
+			<Text>嗨。……嗨。（你们加入了相同的秘密结社。）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_SAILOR_VALKRANA_REASON_STANDARD_DIPLOMATIC_DIFFERENT_SECRET_SOCIETY" Language="zh_Hans_CN">
-			<Text>... (You belong to different secret societies.)</Text>
+			<Text>……（你们加入了不同的秘密结社。）</Text>
 		</Row>
 
 		<!-- ====================================================== -->
