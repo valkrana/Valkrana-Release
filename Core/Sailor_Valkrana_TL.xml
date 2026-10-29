@@ -407,14 +407,14 @@
 			<Text>死灵秘术</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+2 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
+			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+2 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_SAILOR_VALKRANA_UA_DESCRIPTION_MODE" Language="zh_Hans_CN">
-			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。 图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+1 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
+			<Text>获取一个 [ICON_GreatWork_Relic] 遗物后，你可以获得一次使用魔导书的机会。图书馆获得一个额外的 [ICON_GreatWork_Relic] 遗物槽位，且你的遗物每回合提供+1 [ICON_GreatScientist] 大科学家点数。拥有特色单位骷髅，在战斗中死亡的陆地单位有10%的几率作为你的骷髅复活。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_SAILOR_VALKRANA_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
 			<Text>
-				魔导书[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]探知[ENDCOLOR] - 永久显示目标领袖一座城市所在的单元格。每次使用都会优先揭露该领袖未发现的城市单元格，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个地块。[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]动能屏障[ENDCOLOR] - 使你的单位在防御时 +10 [ICON_Strength] 战斗力。效果持续5回合。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]灵魂之井[ENDCOLOR] - 治疗你的骷髅，治疗量为20加上你所击杀的单位数的两倍。每次使用后重新计数。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]骷髅空投[ENDCOLOR] - 在目标领袖的城市附近生成3个敌对骷髅。如果还没有遇到任何领袖，则会以随机单元格为目标。
+				魔导书[NEWLINE][ICON_Bullet][COLOR_FLOAT_CULTURE]探知[ENDCOLOR] - 永久显示目标领袖一座城市所在的单元格。每次使用都会优先揭露该领袖未发现的城市单元格，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个单元格。[NEWLINE][ICON_Bullet][COLOR_MEDIUM_GREEN]动能屏障[ENDCOLOR] - 使你的单位在防御时 +10 [ICON_Strength] 战斗力。效果持续5回合。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]灵魂之井[ENDCOLOR] - 治疗你的骷髅，治疗量为20加上你所击杀的单位数的两倍。每次使用后重新计数。[NEWLINE][ICON_Bullet][COLOR:72,39,111,255]骷髅空投[ENDCOLOR] - 在目标领袖的城市附近生成3个敌对骷髅。如果还没有遇到任何领袖，则会以随机单元格为目标。
 			</Text>
 		</Row>
 		<!-- DOM -->
@@ -486,7 +486,7 @@
 			<Text>探知</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>永久显示属于目标领袖的一座城市所在格位。每次使用都会优先揭露该领袖的未发现的城市格位，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个地块。</Text>
+			<Text>永久显示属于目标领袖的一座城市所在格位。每次使用都会优先揭露该领袖的未发现的城市格位，或是增加已经揭露的城市的视野半径。如果还没有遇到任何领袖，则会随机揭露地图上一个单元格。</Text>
 		</Row>
 		<Row Tag="LOC_SPELL_2_NAME" Language="zh_Hans_CN">
 			<Text>动能屏障</Text>
