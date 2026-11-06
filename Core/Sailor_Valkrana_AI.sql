@@ -214,10 +214,11 @@ VALUES
 		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_NUCLEAR',				0),
 		('SAILOR_VALKRANA_Discussions',		0,			'WC_EMERGENCY_WORLD_GAMES',			0),
 -- TACTICS
-		('SAILOR_VALKRANA_Tactics',			1,			'Move to Safety',					20),
+		--('SAILOR_VALKRANA_Tactics',			1,			'Move to Safety',					20),
 -- RESOLUTIONS
-		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_WORLD_RELIGION',			0);
-		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_MERCENARY_COMPANIES',		0);
+		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_WORLD_RELIGION',			0),
+		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_MERCENARY_COMPANIES',		0),
+		('SAILOR_VALKRANA_Resolutions',		1,			'WC_RES_ESPIONAGE_PACT',			0);
 -- CIVICS
 INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Civics', 1, CivicType, 0
 FROM CivicModifiers WHERE ModifierId = 'CIVIC_GRANT_SPY'; -- Spy Slots
