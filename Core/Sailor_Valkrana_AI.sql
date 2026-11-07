@@ -127,6 +127,7 @@ VALUES	('SAILOR_VALKRANA_Strategies'),
 		('SAILOR_VALKRANA_Civics'),
 		('SAILOR_VALKRANA_Techs'),
 		('SAILOR_VALKRANA_Buildings'),
+		('SAILOR_VALKRANA_Commemorations'),
 		('SAILOR_VALKRANA_Districts'),
 		('SAILOR_VALKRANA_Improvements'),
 		('SAILOR_VALKRANA_PseudoYields'),
@@ -157,7 +158,8 @@ VALUES	('SAILOR_VALKRANA_Strategies',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Strateg
 		('SAILOR_VALKRANA_Diploaction',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'DiplomaticActions'),
 		('SAILOR_VALKRANA_Discussions',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Discussions'),
 		('SAILOR_VALKRANA_Tactics',			'TRAIT_AGENDA_SAILOR_VALKRANA',		'Tactics'),
-		('SAILOR_VALKRANA_Resolutions',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Resolutions');
+		('SAILOR_VALKRANA_Resolutions',		'TRAIT_AGENDA_SAILOR_VALKRANA',		'Resolutions'),
+		('SAILOR_VALKRANA_Commemorations',	'TRAIT_AGENDA_SAILOR_VALKRANA',		'Commemorations');
 
 INSERT OR REPLACE INTO AiFavoredItems	
 		(ListType,							Favored,	Item,								Value)
@@ -218,7 +220,9 @@ VALUES
 -- RESOLUTIONS
 		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_WORLD_RELIGION',			0),
 		('SAILOR_VALKRANA_Resolutions',		0,			'WC_RES_MERCENARY_COMPANIES',		0),
-		('SAILOR_VALKRANA_Resolutions',		1,			'WC_RES_ESPIONAGE_PACT',			0);
+		('SAILOR_VALKRANA_Resolutions',		1,			'WC_RES_ESPIONAGE_PACT',			0),
+-- COMMEMORATIONS
+		('SAILOR_VALKRANA_Commemorations',	1,			'COMMEMORATION_ESPIONAGE',			0);
 -- CIVICS
 INSERT OR REPLACE INTO AiFavoredItems (ListType, Favored, Item, Value) SELECT 'SAILOR_VALKRANA_Civics', 1, CivicType, 0
 FROM CivicModifiers WHERE ModifierId = 'CIVIC_GRANT_SPY'; -- Spy Slots

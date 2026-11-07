@@ -34,7 +34,7 @@
 
 		<!--Cities-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA">
-			<Text>Sssrashiensta</Text>
+			<Text>Citadella Ilyana</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY">
 			<Text>Khwaday</Text>
@@ -173,7 +173,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY">
-			<Text>Sssrashiensta is teeming with insectoids, undead, goblins, ogres... If a human wishes it dead, it might be there. Also, there are parfaits.</Text>
+			<Text>See the dragonstorms on fire in the skies of interdimensional flying fortress, Citadella Ilyana? You bear witness to the seat of the Seeker herself. There, artisans and adventurers strive for the pinnacle of their profession. Elf, fiend, goblin: we do not care. Understand that you must submit to mind reading to clear security.</Text>
 		</Row>
 
 		<!--GREETINGS-->

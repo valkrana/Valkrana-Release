@@ -882,7 +882,7 @@
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="ru_RU">
-			<Text>Сссрашиенста</Text>
+			<Text>Цитадель Ильяны</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="ru_RU">
 			<Text>Хвадай</Text>
@@ -1022,7 +1022,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="ru_RU">
-			<Text>Сссрашиенста кишит инсектоидами, нежитью, гоблинами и ограми, и если человек пожелает смерти, она может оказаться там. А еще там есть парфеи. ...Вы можете позволить своим костям болтаться.</Text>
+			<Text>Видите ли вы пламенные драконьи бури в небесах над межпространственной летающей крепостью «Цитадель Ильяна»? Вы становитесь свидетелями того места, где пребывает сама Искательница. Там мастера и искатели приключений стремятся достичь вершин своего мастерства. Эльфы, демоны, гоблины — нам всё равно. Поймите: для прохождения контроля безопасности вам придётся подвергнуться чтению мыслей.</Text>
 		</Row>
 
 		<!--GREETINGS-->
@@ -1277,7 +1277,7 @@
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="de_DE">
-			<Text>Sssrashiensta</Text>
+			<Text>Citadella Ilyana</Text>
 		</Row>
 
 		<!--Civilopedia-->
@@ -1398,7 +1398,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="de_DE">
-			<Text>In Sssrashiensta wimmelt es von Insektoiden, Untoten, Goblins und Ogern, und wenn ein Mensch sich den Tod wünscht, ist er vielleicht schon da. Außerdem gibt es Parfaits. ...Du kannst deine Knochen raushängen lassen.</Text>
+			<Text>Siehst du die lodernden Drachenstürme am Himmel über der interdimensionalen fliegenden Festung Citadella Ilyana? Du bist Zeuge des Sitzes der Sucherin selbst. Dort streben Handwerker und Abenteurer nach der Spitze ihres Fachs. Elfen, Dämonen, Goblins: Das ist uns egal. Sei dir bewusst, dass du dich einer Gedankenlesung unterziehen musst, um die Sicherheitskontrolle zu passieren.</Text>
 		</Row>
 
 		<!--GREETINGS-->
@@ -1649,7 +1649,7 @@
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="ja_JP">
-			<Text>スプラシエンスタ</Text>
+			<Text>シタデラ・イリヤナ</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="ja_JP">
 			<Text>クワダイ</Text>
@@ -1788,7 +1788,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="ja_JP">
-			<Text>スプラシエンスタは、インセクトロイドやアンデッド、ゴブリンやオーガがあふれ、人間が死を望めば、そこにいるかもしれない。あと、パフェもある。...骨抜きにされることもある。</Text>
+			<Text>次元間を飛び回る要塞「シタデラ・イリヤナ」の空に燃え盛るドラゴンストームが見えますか？　あなたはまさに「シーカー」そのものの居場所を目の当たりにしているのです。そこでは、職人や冒険者たちがそれぞれの道の頂点を目指して奮闘しています。エルフ、フィエンド、ゴブリン――私たちはそんなことは気にしません。セキュリティチェックを通過するには、心読検査を受ける必要があることをご承知おきください。</Text>
 		</Row>
 
 		<!--GREETINGS-->
@@ -2040,7 +2040,7 @@
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="es_ES">
-			<Text>Sssrashiensta</Text>
+			<Text>Citadella Ilyana</Text>
 		</Row>
 
 		<!--Civilopedia-->
@@ -2161,7 +2161,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="es_ES">
-			<Text>Sssrashiensta está repleta de insectoides y muertos vivientes y duendes y ogros y si un humano lo desea muerto, puede estar allí. Además, hay parfaits. ...Puedes dejar que tus huesos cuelguen.</Text>
+			<Text>¿Ves las tormentas de dragones en llamas en los cielos de la fortaleza voladora interdimensional, Citadella Ilyana? Estás ante la sede de la propia Buscadora. Allí, artesanos y aventureros se esfuerzan por alcanzar la cima de su profesión. Elfos, demonios, goblins: no nos importa. Ten en cuenta que debes someterte a una lectura de mentes para pasar el control de seguridad.</Text>
 		</Row>
 
 		<!--GREETINGS-->
@@ -2714,7 +2714,7 @@
 
 		<!--Capital-->
 		<Row Tag="LOC_CITY_NAME_SAILOR_SSSRASHIENSTA" Language="it_IT">
-			<Text>Sssrashiensta</Text>
+			<Text>Citadella Ilyana</Text>
 		</Row>
 		<Row Tag="LOC_CITY_NAME_SAILOR_KHWADAY" Language="it_IT">
 			<Text>Khwaday</Text>
@@ -2853,7 +2853,7 @@
 		</Row>
 		<!--AI invitation to exchange Capital Information-->
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_SAILOR_VALKRANA_ANY" Language="it_IT">
-			<Text>Sssrashiensta pullula di insettoidi, non morti, goblin e orchi, e se un umano vuole morire, può farlo lì. Inoltre, abbiamo i semifreddi. ...Puoi lasciar uscire le tue ossa!</Text>
+			<Text>Vedi le tempeste di draghi infuocate nei cieli della fortezza volante interdimensionale, Citadella Ilyana? Stai assistendo alla sede della Cercatrice in persona. Lì, artigiani e avventurieri si impegnano per raggiungere l’apice della loro professione. Elfi, demoni, goblin: non ci interessa. Tieni presente che dovrai sottoporti a una lettura del pensiero per superare i controlli di sicurezza.</Text>
 		</Row>
 
 		<!--GREETINGS-->
